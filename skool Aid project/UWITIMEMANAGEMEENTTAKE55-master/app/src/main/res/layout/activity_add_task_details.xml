@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".AddTaskDetails"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/general_title"
+        android:layout_width="110dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="265dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="General"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/task_startDate"
+        android:layout_width="97dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="Start Date"
+        app:layout_constraintEnd_toStartOf="@+id/task_endDate"
+        app:layout_constraintStart_toEndOf="@+id/Dstart"
+        app:layout_constraintTop_toBottomOf="@+id/general_title"
+        tools:text="Start Date" />
+
+    <EditText
+        android:id="@+id/task_endDate"
+        android:layout_width="105dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="1dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="End Date"
+        app:layout_constraintBottom_toBottomOf="@+id/task_startDate"
+        app:layout_constraintEnd_toStartOf="@+id/Dend"
+        app:layout_constraintStart_toEndOf="@+id/task_startDate"
+        app:layout_constraintTop_toTopOf="@+id/task_startDate"
+        tools:text="End Date" />
+
+    <EditText
+        android:id="@+id/task_startTime"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:inputType="time"
+        android:text="Start Time"
+        app:layout_constraintEnd_toStartOf="@+id/task_endTime"
+        app:layout_constraintStart_toEndOf="@+id/Tstart"
+        app:layout_constraintTop_toBottomOf="@+id/task_startDate" />
+
+    <EditText
+        android:id="@+id/task_endTime"
+        android:layout_width="101dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="5dp"
+        android:ems="10"
+        android:inputType="time"
+        android:text="End Time"
+        app:layout_constraintBottom_toBottomOf="@+id/task_startTime"
+        app:layout_constraintEnd_toStartOf="@+id/Tend"
+        app:layout_constraintStart_toEndOf="@+id/task_startTime"
+        app:layout_constraintTop_toTopOf="@+id/task_startTime" />
+
+    <EditText
+        android:id="@+id/task_note"
+        android:layout_width="320dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginBottom="119dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Tstart" />
+
+    <Button
+        android:id="@+id/task_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.982" />
+
+    <Button
+        android:id="@+id/Dstart"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="8dp"
+        android:text="+"
+        app:layout_constraintBaseline_toBaselineOf="@+id/task_startDate"
+        app:layout_constraintEnd_toStartOf="@+id/task_startDate"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Tstart"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="8dp"
+        android:text="+"
+        app:layout_constraintBaseline_toBaselineOf="@+id/task_startTime"
+        app:layout_constraintEnd_toStartOf="@+id/task_startTime"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Dend"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="22dp"
+        android:text="+"
+        app:layout_constraintBaseline_toBaselineOf="@+id/task_endDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/task_endDate" />
+
+    <Button
+        android:id="@+id/Tend"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:text="+"
+        app:layout_constraintBaseline_toBaselineOf="@+id/task_endTime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/task_endTime" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="69dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="218dp"
+        android:text="Add Note :"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/general_title" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,101 @@
+<application>
+  <component name="ActionsCollector">
+    <counts>
+      <entry action="" count="1" />
+      <entry action="$Copy" count="20" />
+      <entry action="$Cut" count="6" />
+      <entry action="$Delete" count="146" />
+      <entry action="$Paste" count="86" />
+      <entry action="$Redo" count="43" />
+      <entry action="$Undo" count="947" />
+      <entry action="About" count="1" />
+      <entry action="Add  return  statement" count="1" />
+      <entry action="Add Annotation" count="1" />
+      <entry action="Add On Demand Static Import" count="1" />
+      <entry action="Add Single-Member Static Import" count="3" />
+      <entry action="Add braces to  if  statement" count="1" />
+      <entry action="Android.BuildApk" count="4" />
+      <entry action="Android.CreateResourceDirectory" count="1" />
+      <entry action="Android.ExportProjectZip" count="1" />
+      <entry action="Android.GenerateSignedApk" count="1" />
+      <entry action="Android.RunAndroidAvdManager" count="27" />
+      <entry action="Android.RunAndroidSdkManager" count="2" />
+      <entry action="Android.ShowThemeEditor" count="1" />
+      <entry action="Android.SyncProject" count="44" />
+      <entry action="AndroidConnectDebuggerAction" count="1" />
+      <entry action="CPP.NewHeaderFile" count="1" />
+      <entry action="CheckinProject" count="1" />
+      <entry action="CleanGradleProject" count="18" />
+      <entry action="CloseProject" count="1" />
+      <entry action="CodeCompletion" count="4" />
+      <entry action="CollapseRegion" count="1" />
+      <entry action="CommentByLineComment" count="68" />
+      <entry action="ConfigureCodeStyleOnSelectedFragment" count="1" />
+      <entry action="CopyAsPlainText" count="1" />
+      <entry action="CopyPaths" count="2" />
+      <entry action="CopyReference" count="1" />
+      <entry action="Create Test" count="1" />
+      <entry action="Create method from usage" count="2" />
+      <entry action="Debug" count="1" />
+      <entry action="DebugClass" count="2" />
+      <entry action="DialogOkAction Enter" count="29" />
+      <entry action="EditSource" count="1" />
+      <entry action="EditorBackSpace" count="7462" />
+      <entry action="EditorChooseLookupItem" count="682" />
+      <entry action="EditorCodeBlockEnd" count="3" />
+      <entry action="EditorCodeBlockStart" count="1" />
+      <entry action="EditorCopy" count="517" />
+      <entry action="EditorCut" count="2" />
+      <entry action="EditorDelete" count="506" />
+      <entry action="EditorDeleteLine" count="54" />
+      <entry action="EditorDeleteToWordStart" count="1" />
+      <entry action="EditorDown" count="2474" />
+      <entry action="EditorEnter" count="930" />
+      <entry action="EditorLeft" count="1408" />
+      <entry action="EditorLineEnd" count="16" />
+      <entry action="EditorLineStart" count="34" />
+      <entry action="EditorNextWord" count="3" />
+      <entry action="EditorPageUp" count="214" />
+      <entry action="EditorPaste" count="779" />
+      <entry action="EditorPasteSimple" count="1" />
+      <entry action="EditorPreviousWord" count="1" />
+      <entry action="EditorRight" count="1077" />
+      <entry action="EditorSplitLine" count="7" />
+      <entry action="EditorTab" count="311" />
+      <entry action="EditorToggleInsertState" count="136" />
+      <entry action="EditorUp" count="1013" />
+      <entry action="EditorUpWithSelection" count="1" />
+      <entry action="Exit" count="1" />
+      <entry action="Extract string resource" count="19" />
+      <entry action="FileChooser.GotoDesktop" count="2" />
+      <entry action="FileChooser.ShowHiddens" count="2" />
+      <entry action="Find" count="2" />
+      <entry action="Fix Arguments" count="1" />
+      <entry action="Fix Variable Type" count="4" />
+      <entry action="Flip  _ " count="3" />
+      <entry action="Generate" count="1" />
+      <entry action="Generate overloaded method with default parameter values" count="1" />
+      <entry action="GotoAction" count="3" />
+      <entry action="GotoBookmark0" count="1" />
+      <entry action="GotoDeclaration" count="55" />
+      <entry action="GotoNextError" count="3" />
+      <entry action="HideAllWindows" count="288" />
+      <entry action="Import class" count="5" />
+      <entry action="Introduce local variable" count="3" />
+      <entry action="MakeGradleProject" count="168" />
+      <entry action="Move assignment to field declaration" count="1" />
+      <entry action="NewAndroidVectorAsset" count="5" />
+      <entry action="NewClass" count="19" />
+      <entry action="NewProject" count="17" />
+      <entry action="OpenFile" count="73" />
+      <entry action="OverrideMethods" count="10" />
+      <entry action="RebuildGradleProject" count="3" />
+      <entry action="RefactoringMenuRenameFile" count="1" />
+      <entry action="Remove braces from  if  statement" count="1" />
+      <entry action="Remove unused variable" count="1" />
+      <entry action="Rename end tag  android.support.v7.widget.GridLayout  to  android.support.constraint.ConstraintLayout " count="1" />
+      <entry action="RenameElement" count="1" />
+      <entry action="RevealIn" count="1" />
+      <entry action="Run" count="402" />
+      <entry action="SafeDelete" count="12" />
+      <entry action="SaveAll" count="8" />

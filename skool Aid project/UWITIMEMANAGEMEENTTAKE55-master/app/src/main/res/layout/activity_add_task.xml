@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTask">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginBottom="20dp"
+        android:text="Please Select The Type Of Activity"
+        android:textSize="24sp"
+        android:typeface="serif"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/school_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/school_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="296dp"
+        android:background="@drawable/roundedbutton"
+        android:text="School"
+        android:textColor="@color/white"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/gym_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gym"
+        android:textColor="@color/white"
+        android:typeface="sans"
+        android:background="@drawable/roundedbutton1"
+        app:layout_constraintBottom_toTopOf="@+id/party_btn"
+        app:layout_constraintStart_toStartOf="@+id/school_btn"
+        app:layout_constraintTop_toBottomOf="@+id/school_btn" />
+
+    <Button
+        android:id="@+id/party_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Party"
+        android:textColor="@color/white"
+        android:typeface="sans"
+        android:background="@drawable/roundedbutton2"
+        app:layout_constraintBottom_toTopOf="@+id/general_btn"
+        app:layout_constraintStart_toStartOf="@+id/gym_btn"
+        app:layout_constraintTop_toBottomOf="@+id/gym_btn" />
+
+    <Button
+        android:id="@+id/general_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="152dp"
+        android:text="General"
+        android:textColor="@color/white"
+        android:typeface="sans"
+        android:background="@drawable/roundedbutton3"
+        android:textColorLink="@color/common_google_signin_btn_text_dark_disabled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/party_btn"
+        app:layout_constraintTop_toBottomOf="@+id/party_btn" />
+
+</android.support.constraint.ConstraintLayout>
